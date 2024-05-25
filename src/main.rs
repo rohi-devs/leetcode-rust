@@ -1,5 +1,5 @@
-use leetcode::dp;
+use leetcode;
 fn main() {
-    let res = dp::solutions::longest_palindrome(String::from("ababbaammmma"));
+    let res = leetcode::normie::solutions::find_median_sorted_arrays(vec![13,2,32,7,233], vec![237,239,3,3,5,11,323]);
     dbg!(res);
 }
